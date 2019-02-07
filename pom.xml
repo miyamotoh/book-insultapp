@@ -49,12 +49,14 @@
       </build>
     </profile>
   </profiles>
-	<artifactId>InsultApp</artifactId>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>9.6</version>
+    </dependency>
+  </dependencies>
+
+  <artifactId>InsultApp</artifactId>
 </project>
-<dependencies>
-  <dependency>
-    <groupId>org.postgresql</groupId>
-    <artifactId>postgresql</artifactId>
-    <version>9.6</version>
-  </dependency>
-</dependencies>
