@@ -42,7 +42,7 @@
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                     <outputDirectory>target</outputDirectory>
-              		<warName>greet</warName>
+              		<warName>ROOT</warName>
                 </configuration>
             </plugin>
         </plugins>
